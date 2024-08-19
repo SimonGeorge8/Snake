@@ -53,7 +53,7 @@ class Game extends JFrame {
      * @param width The width of the game board.
      */
     public Game(int height, int width) {
-        Game.height = height - 2;
+        Game.height = height;
         Game.width = width;
         game_snake = new Snake(start_snake, RIGHT);
         apple = new Apple(height, width);
